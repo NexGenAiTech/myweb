@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Services - NexGenAiTech | React, Next.js, Vue.js Development</title>
+    <meta name="description" content="Professional Web Development Services using React, Next.js, Vue.js, Node.js. Responsive websites, web applications, and e-commerce solutions.">
+    <meta name="keywords" content="Web Development, React Development, Next.js, Vue.js, Node.js, Frontend Development, Full-Stack Development">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Web Development",
+        "description": "Professional web development services using modern technologies",
+        "provider": {
+            "@type": "Organization",
+            "name": "NexGenAiTech"
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "India"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Web Development Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Custom Web Application Development"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "E-commerce Development"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "CMS Development"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+        <div class="preloader-text">NEXGENAITECH</div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="../index.html" class="logo" aria-label="NexGenAiTech Home">
+                    <div class="logo-icon">N</div>
+                    <div class="logo-text">NexGenAiTech</div>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="index.html" class="active">Services</a></li>
+                    <li><a href="../industries.html">Industries</a></li>
+                    <li><a href="../process.html">Process</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <div class="mobile-sidebar" id="mobileSidebar">
+        <!-- Same as home page -->
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Web Development Services</h1>
+            <p>Modern, Responsive, and Scalable Web Solutions Using Cutting-Edge Technologies</p>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <i class="fas fa-chevron-right"></i>
+            <a href="index.html">Services</a>
+            <i class="fas fa-chevron-right"></i>
+            <span>Web Development</span>
+        </div>
+    </div>
+
+    <!-- Service Hero -->
+    <section class="service-hero">
+        <div class="container">
+            <div class="service-hero-content">
+                <h1>Transform Your Digital Presence</h1>
+                <p class="lead">We build high-performance, responsive websites and web applications that deliver exceptional user experiences and drive business growth.</p>
+                
+                <div class="service-stats">
+                    <div class="stat">
+                        <span class="number">100+</span>
+                        <span class="label">Projects Delivered</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">99%</span>
+                        <span class="label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">24/7</span>
+                        <span class="label">Support Available</span>
+                    </div>
+                </div>
+                
+                <a href="../contact.html" class="btn">Start Your Project <i class="fas fa-rocket"></i></a>
+            </div>
+            
+            <div class="service-hero-image">
+                <img src="../images/services/web-hero.jpg" alt="Web Development Process" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-features">
+                <div class="feature-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Custom Web Applications</h3>
+                    <p>Tailored solutions built from scratch to meet your specific business requirements and workflows.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Feature-rich online stores with secure payment gateways, inventory management, and analytics.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>CMS Development</h3>
+                    <p>Custom content management systems that give you complete control over your website content.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look and work perfectly on all devices, from desktops to smartphones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="tech-stack-detail">
+        <div class="container">
+            <h2 class="section-title">Our Web Development Stack</h2>
+            
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3><i class="fab fa-react"></i> Frontend Technologies</h3>
+                    <div class="tech-list">
+                        <div class="tech-item-detail">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fab fa-vuejs"></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fab fa-angular"></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript/ES6+</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fab fa-typescript"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fab fa-sass"></i>
+                            <span>Sass/SCSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3><i class="fab fa-node-js"></i> Backend Technologies</h3>
+                    <div class="tech-list">
+                        <div class="tech-item-detail">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fab fa-php"></i>
+                            <span>PHP/Laravel</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fas fa-database"></i>
+                            <span>REST APIs</span>
+                        </div>
+                        <div class="tech-item-detail">
+                            <i class="fas fa-bolt"></i>
+                            <span>GraphQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Code Examples -->
+    <section class="code-examples">
+        <div class="container">
+            <h2 class="section-title">Development Expertise</h2>
+            
+            <div class="code-snippet">
+                <div class="code-header">
+                    <h3>React Component Example</h3>
+                    <button class="copy-btn" onclick="copyCode(this)">Copy Code</button>
+                </div>
+                <pre><code class="language-javascript">
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+const UserDashboard = () => {
+    const [users, setUsers] = useState([]);
+    const [loading, setLoading] = useState(true);
+    
+    useEffect(() => {
+        fetchUsers();
+    }, []);
+    
+    const fetchUsers = async () => {
+        try {
+            const response = await axios.get('/api/users');
+            setUsers(response.data);
+            setLoading(false);
+        } catch (error) {
+            console.error('Error fetching users:', error);
+            setLoading(false);
+        }
+    };
+    
+    return (
+        &lt;div className="dashboard"&gt;
+            {loading ? (
+                &lt;div className="loading"&gt;Loading...&lt;/div&gt;
+            ) : (
+                &lt;div className="users-grid"&gt;
+                    {users.map(user => (
+                        &lt;div key={user.id} className="user-card"&gt;
+                            &lt;h3&gt;{user.name}&lt;/h3&gt;
+                            &lt;p&gt;{user.email}&lt;/p&gt;
+                        &lt;/div&gt;
+                    ))}
+                &lt;/div&gt;
+            )}
+        &lt;/div&gt;
+    );
+};
+
+export default UserDashboard;
+                </code></pre>
+            </div>
+            
+            <div class="code-snippet">
+                <div class="code-header">
+                    <h3>Node.js API Example</h3>
+                    <button class="copy-btn" onclick="copyCode(this)">Copy Code</button>
+                </div>
+                <pre><code class="language-javascript">
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+require('dotenv').config();
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// MongoDB Connection
+mongoose.connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
+.then(() => console.log('MongoDB connected'))
+.catch(err => console.error('MongoDB connection error:', err));
+
+// User Schema
+const userSchema = new mongoose.Schema({
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    createdAt: { type: Date, default: Date.now }
+});
+
+const User = mongoose.model('User', userSchema);
+
+// Routes
+app.get('/api/users', async (req, res) => {
+    try {
+        const users = await User.find().sort({ createdAt: -1 });
+        res.json(users);
+    } catch (error) {
+        res.status(500).json({ error: 'Server error' });
+    }
+});
+
+app.post('/api/users', async (req, res) => {
+    try {
+        const { name, email } = req.body;
+        const user = new User({ name, email });
+        await user.save();
+        res.status(201).json(user);
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+});
+
+// Start server
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
+                </code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Process -->
+    <section class="development-process">
+        <div class="container">
+            <h2 class="section-title">Our Web Development Process</h2>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Discovery & Analysis</h3>
+                    <p>Understand requirements, analyze competition, define project scope</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Wireframes, mockups, interactive prototypes, user testing</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>Frontend, backend, API integration, database setup</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Testing</h3>
+                    <p>Unit testing, integration testing, performance testing, security audit</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Deployment</h3>
+                    <p>Server setup, CI/CD pipeline, production deployment, monitoring</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service CTA -->
+    <section class="service-cta">
+        <div class="container">
+            <h2>Ready to Build Your Web Application?</h2>
+            <p>Get a free consultation and project estimate from our web development experts</p>
+            <div class="cta-buttons">
+                <a href="../contact.html" class="btn">Start Your Project <i class="fas fa-rocket"></i></a>
+                <a href="tel:+918055698328" class="btn btn-secondary">Call Now: +91 8055698328</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Same as home page -->
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script>
+        // Copy code functionality
+        function copyCode(button) {
+            const codeBlock = button.parentElement.nextElementSibling;
+            const code = codeBlock.textContent;
+            
+            navigator.clipboard.writeText(code).then(() => {
+                button.textContent = 'Copied!';
+                setTimeout(() => {
+                    button.textContent = 'Copy Code';
+                }, 2000);
+            });
+        }
+        
+        // Initialize syntax highlighting
+        document.addEventListener('DOMContentLoaded', () => {
+            // You can add Prism.js or similar syntax highlighter here
+            const codeBlocks = document.querySelectorAll('pre code');
+            codeBlocks.forEach(block => {
+                block.classList.add('language-javascript');
+            });
+        });
+    </script>
+</body>
+</html>
