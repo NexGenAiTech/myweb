@@ -1,0 +1,363 @@
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Large Desktop: 1400px+ */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* Desktop: 1200px - 1399px */
+@media (max-width: 1200px) {
+    .services-grid,
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .tech-stack {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .industries-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .hero-title {
+        font-size: 3.8rem;
+    }
+}
+
+/* Tablet Landscape: 992px - 1199px */
+@media (max-width: 992px) {
+    .section-title {
+        font-size: 2.8rem;
+    }
+    
+    .about-content,
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    
+    .service-hero {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .hero-title {
+        font-size: 3.2rem;
+    }
+    
+    .timeline::before {
+        left: 30px;
+    }
+    
+    .timeline-step {
+        width: 100%;
+        left: 0;
+        padding-left: 80px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    
+    .timeline-step:nth-child(odd),
+    .timeline-step:nth-child(even) {
+        left: 0;
+        padding-right: 20px;
+        padding-left: 80px;
+    }
+    
+    .timeline-step:nth-child(odd) .step-number,
+    .timeline-step:nth-child(even) .step-number {
+        left: 0;
+        right: auto;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .mobile-menu-btn {
+        display: flex;
+    }
+    
+    .hero-buttons,
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-header h1 {
+        font-size: 3.2rem;
+    }
+    
+    .service-features {
+        grid-template-columns: 1fr;
+    }
+    
+    .tech-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet Portrait: 768px - 991px */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.4rem;
+    }
+    
+    .services-grid,
+    .values-grid,
+    .industries-grid,
+    .tech-stack {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .cta-title {
+        font-size: 2.5rem;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .mobile-sidebar {
+        width: 85%;
+        max-width: 300px;
+        left: -85%;
+    }
+    
+    .mobile-sidebar.active {
+        left: 0;
+    }
+    
+    .about-image {
+        height: 400px;
+    }
+    
+    .value-card,
+    .service-card,
+    .industry-card,
+    .stack-category {
+        padding: 30px 20px;
+    }
+    
+    section {
+        padding: 80px 0;
+    }
+    
+    .page-header {
+        padding: 120px 0 60px;
+    }
+    
+    .page-header h1 {
+        font-size: 2.8rem;
+    }
+    
+    .tech-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .contact-icon {
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Landscape: 576px - 767px */
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 2.2rem;
+        margin-bottom: 50px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .cta-title {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        padding: 14px 28px;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .contact-info-section h2,
+    .contact-form-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .contact-info-section,
+    .contact-form-section {
+        padding: 30px 20px;
+    }
+    
+    .mobile-sidebar {
+        width: 90%;
+        left: -90%;
+    }
+    
+    .mobile-sidebar.active {
+        left: 0;
+    }
+    
+    .quick-link-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .service-hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .code-snippet {
+        padding: 20px;
+    }
+    
+    .code-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+/* Mobile Portrait: 400px - 575px */
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .mobile-sidebar {
+        width: 100%;
+        left: -100%;
+    }
+    
+    .mobile-sidebar.active {
+        left: 0;
+    }
+    
+    .logo-text {
+        font-size: 1.5rem;
+    }
+    
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .service-hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .service-cta h2 {
+        font-size: 2rem;
+    }
+}
+
+/* ===== TOUCH DEVICE OPTIMIZATIONS ===== */
+@media (hover: none) and (pointer: coarse) {
+    .hover-lift:hover {
+        transform: none;
+    }
+    
+    .service-card:hover {
+        transform: none;
+    }
+    
+    .value-card:hover {
+        transform: none;
+    }
+    
+    .industry-card:hover {
+        transform: none;
+    }
+    
+    .stack-category:hover {
+        transform: none;
+    }
+    
+    .btn:hover {
+        transform: none;
+    }
+    
+    .back-to-top:hover {
+        transform: none;
+    }
+}
+
+/* ===== PRINT OPTIMIZATIONS ===== */
+@media print {
+    .hero,
+    .cta {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .hero-title,
+    .cta-title,
+    .section-title {
+        color: black !important;
+        text-shadow: none !important;
+    }
+    
+    .btn {
+        background: white !important;
+        color: black !important;
+        border: 1px solid black !important;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+    
+    .service-image,
+    .about-image,
+    .service-hero-image {
+        display: none;
+    }
+}
