@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - NexGenAiTech | AI, Web, Mobile & SaaS Development</title>
+    <meta name="description" content="Comprehensive AI & Full-Stack Development Services: Web Development, Mobile Apps, Enterprise Software, SaaS, AI/ML Solutions, and UI/UX Design.">
+    <meta name="keywords" content="AI Development Services, Web Development, Mobile App Development, SaaS Development, Enterprise Software, UI/UX Design, Full-Stack Development">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "AI & Full-Stack Development",
+        "provider": {
+            "@type": "Organization",
+            "name": "NexGenAiTech"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Development Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Web Development"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Mobile App Development"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI & ML Solutions"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+        <div class="preloader-text">NEXGENAITECH</div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="../index.html" class="logo" aria-label="NexGenAiTech Home">
+                    <div class="logo-icon">N</div>
+                    <div class="logo-text">NexGenAiTech</div>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="index.html" class="active">Services</a></li>
+                    <li><a href="../industries.html">Industries</a></li>
+                    <li><a href="../process.html">Process</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <div class="mobile-sidebar" id="mobileSidebar">
+        <!-- Same as home page -->
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Comprehensive AI & Full-Stack Development Solutions Tailored to Your Business Needs</p>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <i class="fas fa-chevron-right"></i>
+            <span>Services</span>
+        </div>
+    </div>
+
+    <!-- Services Overview -->
+    <section class="services-overview">
+        <div class="container">
+            <div class="intro-text">
+                <h2>Transform Your Business with Our Expertise</h2>
+                <p>At NexGenAiTech, we offer end-to-end development services that combine artificial intelligence with robust software engineering. From concept to deployment and beyond, we're your partner in digital transformation.</p>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="../images/services/web-development.jpg" alt="Modern Web Development Services" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Modern, responsive websites and web applications using React, Next.js, Vue.js, and cutting-edge technologies.</p>
+                        <div class="service-tech">
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>Vue.js</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="web-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="../contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="../images/services/mobile-development.jpg" alt="Mobile App Development for iOS and Android" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Development</h3>
+                        <p>Native and cross-platform mobile applications for iOS and Android using React Native, Flutter, and Swift.</p>
+                        <div class="service-tech">
+                            <span>React Native</span>
+                            <span>Flutter</span>
+                            <span>Swift</span>
+                            <span>Kotlin</span>
+                        </div>
+                        <a href="mobile-app-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="../contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="../images/services/enterprise.jpg" alt="Enterprise Software Solutions" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-server"></i>
+                        <h3>Enterprise Software</h3>
+                        <p>Custom software solutions for enterprise-scale business operations, CRM, ERP, and workflow automation.</p>
+                        <div class="service-tech">
+                            <span>Java</span>
+                            <span>.NET</span>
+                            <span>Python</span>
+                            <span>Microservices</span>
+                        </div>
+                        <a href="enterprise-software.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="../contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="../images/services/saas.jpg" alt="SaaS Development Services" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-cloud"></i>
+                        <h3>SaaS Development</h3>
+                        <p>Scalable Software-as-a-Service products with subscription models, multi-tenancy, and cloud infrastructure.</p>
+                        <div class="service-tech">
+                            <span>AWS</span>
+                            <span>Azure</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                        </div>
+                        <a href="saas-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="../contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="../images/services/ai-ml.jpg" alt="AI and Machine Learning Solutions" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Intelligent solutions powered by AI, ML, computer vision, natural language processing, and predictive analytics.</p>
+                        <div class="service-tech">
+                            <span>TensorFlow</span>
+                            <span>PyTorch</span>
+                            <span>OpenAI</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <a href="ai-ml-solutions.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="../contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="../images/services/ui-ux.jpg" alt="UI/UX Design Services" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-palette"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>User-centered design that enhances engagement and conversion through intuitive interfaces and seamless experiences.</p>
+                        <div class="service-tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Sketch</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <a href="ui-ux-design.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="../contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Process -->
+    <section class="service-process">
+        <div class="container">
+            <h2 class="section-title">Our Service Delivery Process</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Discovery & Planning</h3>
+                    <p>We analyze your requirements and create a detailed project plan.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Design & Prototyping</h3>
+                    <p>Create wireframes, mockups, and interactive prototypes.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Development</h3>
+                    <p>Agile development with regular updates and milestone deliveries.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Testing & QA</h3>
+                    <p>Comprehensive testing for performance, security, and usability.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Deployment & Support</h3>
+                    <p>Smooth deployment and ongoing maintenance support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="tech-stack-section">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-stack">
+                <!-- Same as home page -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Not Sure Which Service You Need?</h2>
+                <p>Schedule a free consultation with our experts to discuss your project requirements</p>
+                <div class="cta-buttons">
+                    <a href="../contact.html" class="btn">Book Free Consultation <i class="fas fa-calendar-check"></i></a>
+                    <a href="tel:+918055698328" class="btn btn-secondary">Call Now <i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Same as home page -->
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script>
+        // Service page specific JavaScript
+        document.addEventListener('DOMContentLoaded', () => {
+            // Add animation to service cards
+            const serviceCards = document.querySelectorAll('.service-card');
+            serviceCards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1}s`;
+                card.classList.add('animate-on-scroll');
+            });
+        });
+    </script>
+</body>
+</html>
