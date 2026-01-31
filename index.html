@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexGenAiTech - AI & Full-Stack Development Company | Professional Solutions</title>
+    <meta name="description" content="NexGenAiTech: Professional AI & Full-Stack Development company. Building intelligent digital solutions for startups and enterprises. Expert in AI, Web, Mobile, SaaS Development.">
+    <meta name="keywords" content="AI Development, Full-Stack Development, Machine Learning, SaaS Development, Web Development, Mobile App Development, MERN Stack, React, Node.js, Python, TensorFlow">
+    <meta name="author" content="Jahid Ansari - NexGenAiTech">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="NexGenAiTech - AI & Full-Stack Development Company">
+    <meta property="og:description" content="Professional AI & Full-Stack Development Services">
+    <meta property="og:type" content="website">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nexgenaitech.com">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NexGenAiTech",
+        "url": "https://nexgenaitech.com",
+        "logo": "https://nexgenaitech.com/images/logo.png",
+        "description": "Professional AI & Full-Stack Development company building intelligent digital solutions",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kushinagar",
+            "addressRegion": "Uttar Pradesh",
+            "addressCountry": "India"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-8055698328",
+            "contactType": "Customer Service",
+            "email": "nexgenaitech7@gmail.com",
+            "availableLanguage": ["English", "Hindi"]
+        },
+        "sameAs": [
+            "https://linkedin.com/company/nexgenaitech",
+            "https://github.com/nexgenaitech"
+        ]
+    }
+    </script>
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+        <div class="preloader-text">NEXGENAITECH</div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo" aria-label="NexGenAiTech Home">
+                    <div class="logo-icon">N</div>
+                    <div class="logo-text">NexGenAiTech</div>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services/">Services</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="process.html">Process</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Enhanced Mobile Sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <div class="mobile-sidebar" id="mobileSidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-logo">NexGenAiTech</div>
+            <button class="sidebar-close" id="sidebarClose" aria-label="Close sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="services/"><i class="fas fa-cogs"></i> Services</a></li>
+            <li><a href="industries.html"><i class="fas fa-industry"></i> Industries</a></li>
+            <li><a href="process.html"><i class="fas fa-project-diagram"></i> Our Process</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+        </ul>
+        
+        <div class="sidebar-quick-links">
+            <h3><i class="fas fa-bolt"></i> Quick Actions</h3>
+            <div class="quick-link-grid">
+                <a href="contact.html" class="quick-link-btn">
+                    <i class="fas fa-comment-alt"></i> Message
+                </a>
+                <a href="https://wa.me/918055698328?text=Hi%20NexGenAiTech%2C%20I%27m%20interested%20in%20your%20services" target="_blank" class="quick-link-btn">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="tel:+918055698328" class="quick-link-btn">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+                <a href="mailto:nexgenaitech7@gmail.com" class="quick-link-btn">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="services/" class="quick-link-btn">
+                    <i class="fas fa-rocket"></i> Services
+                </a>
+                <a href="process.html" class="quick-link-btn">
+                    <i class="fas fa-play-circle"></i> Process
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transform Your <span class="highlight">Business</span> with AI-Powered Solutions</h1>
+                <p class="hero-subtitle">Professional AI & Full-Stack Development Services | Building Intelligent Digital Solutions for Startups and Enterprises</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn">Get Free Consultation <i class="fas fa-arrow-right"></i></a>
+                    <a href="services/" class="btn btn-secondary">Explore Services <i class="fas fa-rocket"></i></a>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="mouse"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About NexGenAiTech</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Vision & Mission</h3>
+                    <p>At <strong>NexGenAiTech</strong>, we're revolutionizing the digital landscape by combining artificial intelligence with cutting-edge full-stack development. Our mission is to empower businesses with intelligent, scalable solutions that drive growth and innovation.</p>
+                    <p>Founded by <strong>Jahid Ansari</strong>, a passionate developer with 2+ years of experience in AI and full-stack technologies, we specialize in creating robust digital products that solve real-world business challenges.</p>
+                    
+                    <div class="founder-card">
+                        <h4>Jahid Ansari</h4>
+                        <p>Founder & Lead Developer | AI & Full-Stack Expert | MERN Stack Specialist | 2+ Years Experience</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Dev</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>Database</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="values">
+        <div class="container">
+            <h2 class="section-title">Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Innovation</h3>
+                    <p>Constantly exploring emerging technologies to deliver future-ready solutions that keep you ahead of the competition.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Integrity</h3>
+                    <p>Transparent communication, ethical practices, and building trust through reliability and respect for client data.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Results-Driven</h3>
+                    <p>Focusing on measurable business growth and real impact, ensuring maximum ROI for every project.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Collaboration</h3>
+                    <p>Working closely with clients as partners, maintaining open communication throughout the project lifecycle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Premium Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/services/web-development.jpg" alt="Web Development Services - Modern responsive websites and applications" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Modern, responsive websites and web applications using React, Next.js, Vue.js, and cutting-edge technologies.</p>
+                        <a href="services/web-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/services/mobile-development.jpg" alt="Mobile App Development for iOS and Android" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Development</h3>
+                        <p>Native and cross-platform mobile applications for iOS and Android using React Native, Flutter, and Swift.</p>
+                        <a href="services/mobile-app-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/services/enterprise.jpg" alt="Enterprise Software Solutions" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-server"></i>
+                        <h3>Enterprise Software</h3>
+                        <p>Custom software solutions for enterprise-scale business operations, CRM, ERP, and workflow automation.</p>
+                        <a href="services/enterprise-software.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/services/saas.jpg" alt="SaaS Development Services" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-cloud"></i>
+                        <h3>SaaS Development</h3>
+                        <p>Scalable Software-as-a-Service products with subscription models, multi-tenancy, and cloud infrastructure.</p>
+                        <a href="services/saas-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/services/ai-ml.jpg" alt="AI and Machine Learning Solutions" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Intelligent solutions powered by AI, ML, computer vision, natural language processing, and predictive analytics.</p>
+                        <a href="services/ai-ml-solutions.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/services/ui-ux.jpg" alt="UI/UX Design Services" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <i class="fas fa-palette"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>User-centered design that enhances engagement and conversion through intuitive interfaces and seamless experiences.</p>
+                        <a href="services/ui-ux-design.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="excellence">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-stack">
+                <div class="stack-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> HTML5/CSS3</li>
+                        <li><i class="fas fa-check"></i> JavaScript/ES6+</li>
+                        <li><i class="fas fa-check"></i> React.js</li>
+                        <li><i class="fas fa-check"></i> Next.js</li>
+                        <li><i class="fas fa-check"></i> Vue.js</li>
+                        <li><i class="fas fa-check"></i> TypeScript</li>
+                    </ul>
+                </div>
+                <div class="stack-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Node.js</li>
+                        <li><i class="fas fa-check"></i> Express.js</li>
+                        <li><i class="fas fa-check"></i> Python</li>
+                        <li><i class="fas fa-check"></i> Django</li>
+                        <li><i class="fas fa-check"></i> FastAPI</li>
+                        <li><i class="fas fa-check"></i> NestJS</li>
+                    </ul>
+                </div>
+                <div class="stack-category">
+                    <h3>Database</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> MongoDB</li>
+                        <li><i class="fas fa-check"></i> PostgreSQL</li>
+                        <li><i class="fas fa-check"></i> MySQL</li>
+                        <li><i class="fas fa-check"></i> Firebase</li>
+                        <li><i class="fas fa-check"></i> Redis</li>
+                    </ul>
+                </div>
+                <div class="stack-category">
+                    <h3>Mobile</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> React Native</li>
+                        <li><i class="fas fa-check"></i> Flutter</li>
+                        <li><i class="fas fa-check"></i> Swift</li>
+                        <li><i class="fas fa-check"></i> Kotlin</li>
+                        <li><i class="fas fa-check"></i> iOS/Android</li>
+                    </ul>
+                </div>
+                <div class="stack-category">
+                    <h3>Cloud & DevOps</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> AWS</li>
+                        <li><i class="fas fa-check"></i> Azure</li>
+                        <li><i class="fas fa-check"></i> Docker</li>
+                        <li><i class="fas fa-check"></i> CI/CD</li>
+                        <li><i class="fas fa-check"></i> Kubernetes</li>
+                    </ul>
+                </div>
+                <div class="stack-category">
+                    <h3>AI/ML</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> TensorFlow</li>
+                        <li><i class="fas fa-check"></i> PyTorch</li>
+                        <li><i class="fas fa-check"></i> OpenAI</li>
+                        <li><i class="fas fa-check"></i> Computer Vision</li>
+                        <li><i class="fas fa-check"></i> NLP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Build Something Amazing?</h2>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn">Start Your Project <i class="fas fa-rocket"></i></a>
+                    <a href="contact.html" class="btn btn-secondary">Book Free Consultation <i class="fas fa-calendar-check"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">NexGenAiTech</div>
+                    <p>Building Intelligent Digital Solutions for the Future. Empowering businesses through AI-driven innovation and scalable software development.</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services/">Services</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services/web-development.html">Web Development</a></li>
+                        <li><a href="services/mobile-app-development.html">Mobile App Development</a></li>
+                        <li><a href="services/ai-ml-solutions.html">AI & ML Solutions</a></li>
+                        <li><a href="services/enterprise-software.html">Enterprise Software</a></li>
+                        <li><a href="services/ui-ux-design.html">UI/UX Design</a></li>
+                        <li><a href="services/saas-development.html">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> nexgenaitech7@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 8055698328</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kushinagar, Uttar Pradesh, India</p>
+                    <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> NexGenAiTech. All rights reserved. | Founded by Jahid Ansari</p>
+                <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+    
+    <!-- Page-specific structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Home - NexGenAiTech",
+        "description": "AI & Full-Stack Development company providing professional solutions for businesses",
+        "url": "https://nexgenaitech.com",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://nexgenaitech.com"
+            }]
+        }
+    }
+    </script>
+</body>
+</html>
